@@ -44,7 +44,7 @@ body{
     border-style: solid;
     border-color: lightgray;
     flex: 1 0 25%;
-    margin-right: 3em;
+    margin-right: 2em;
     margin-top: 3em;    
     border-radius: 25px;
     
@@ -65,10 +65,27 @@ body{
     margin-left: 1em;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
+    width: 60px;
 }
 
 .text-container{
-    text-align: left;
-    float: right;
+    position: relative;
+    left: 90px;
+    bottom: 80px;
     
+}
+
+h2.name{
+    margin: 0;
+    font-size: .7em;
+}
+
+p.email{
+    margin: 0;
+    font-size: .3em;
+}
+
+p.address{
+    margin: 0;
+    font-size: .5em;
 }
