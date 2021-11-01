@@ -1,9 +1,10 @@
 body{
     position: relative;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
     margin-top: 5%;
     font-family: 'Poppins', sans-serif;
+    background-color:#e4e3e3;
 }
 
 
@@ -47,6 +48,7 @@ body{
     margin-right: 2em;
     margin-top: 3em;    
     border-radius: 25px;
+    background-color: white;
     
     
 
@@ -65,27 +67,26 @@ body{
     margin-left: 1em;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
-    width: 60px;
+    width: 80px;
 }
 
 .text-container{
-    position: relative;
-    left: 90px;
-    bottom: 80px;
-    
+    float: right;
+    margin-top: 2em;
+    padding-right: 1.5em;  
 }
 
 h2.name{
     margin: 0;
-    font-size: .7em;
+    font-size: large;
 }
 
 p.email{
     margin: 0;
-    font-size: .3em;
+    font-size: x-small;
 }
 
 p.address{
     margin: 0;
-    font-size: .5em;
+    font-size: x-small;
 }
