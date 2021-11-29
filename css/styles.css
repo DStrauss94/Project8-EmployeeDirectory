@@ -98,3 +98,16 @@ p.address{
     margin: 0;
     font-size: small;
 }
+
+.modal-content{
+    display: grid;
+}
+
+.modal-content .avatar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    
+}
+
